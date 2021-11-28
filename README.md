@@ -1,13 +1,15 @@
 # House Rocket Data Analysis
 
 # 1.0 - Business Problem
-## 1.1 - Descrição:
+1.1 - Descrição:
+
 House Rocket é uma companhia fictícia interessada em análises para venda e compra de imóveis.
 O modelo de negócios da empresa ocorre com a compra de casas e a venda delas por preços maiores. A diferença entre o preço de venda e o preço de compra é o lucro obtido pela empresa.
 O principal objetivo desse projeto é ter insights de negócio baseados em análise de dados para ajudar nas decisões do CEO e encontrar as melhores oportunidades de negócios. Com base nas análises, serão definidas as casas que estão com valores abaixo de mercado em boas condições de compra e as casas que possuem uma possibilidade de compra/reforma para uma maior valorização. 
 
 
-## 1.2 - Data Overview:
+1.2 - Data Overview:
+
 Foi utilizado um dataset público do Kaggle. O dataset possui 21613 linhas e originalmente 21 features. Posteriormente será adicionado novas features para uma análise dos dados. 
 Abaixo está a descrição das features.
 
@@ -99,17 +101,19 @@ As recomendações foram feitas utilizando a mediana por 'zipcode' e por estaç�
 # 4.0 - Top 5 Data Insights
 Os insights acionáveis que vieram através da exploração dos dados:
 
-## 4.1 - Imóveis que possuem vista para a água são 30% mais caros na média.
+* Imóveis que possuem vista para a água são 30% mais caros na média.
 
-## 4.2 - Imóveis com data de construção menores que 1955 são 50% mais baratos na média.
+* Imóveis com data de construção menores que 1955 são 50% mais baratos na média.
 
-## 4.3 - Imóveis sem porão possuem área total 40% maiores do que imóveis sem porão.
+* Imóveis sem porão possuem área total 40% maiores do que imóveis sem porão.
 
-## 4.4 - O crescimento dos imóveis YoY (year over year) é de 10%.
+* O crescimento dos imóveis YoY (year over year) é de 10%.
 
 # 5.0 - Business Results
 O cálculo do melhor preços de venda dos imóveis deu-se com as seguintes situações:
+
 I - Se o preço de compra for maior que a mediana da região naquela sazonalidade, então o valor de venda será: O valor de compra + adicional de 10%.
+
 II - Se o preço de compra for menor que a mediana da região naquela sazonalidade, então o valor de venda será: O valor de compra + adicional de 30$.
 
 Na tabela abaixo, é possível fazer uma comparação dos resultados obtidos e do lucro esperado. 
@@ -127,12 +131,16 @@ O objetivo de análisar os valores com base nas regiões foi concluído.
 
 # 7.0 - Next steps
 Para as próximas etapas, é crucial que alguns pontos sejam alterados e adicionados.
+
 I - Deve-se fazer uma limpeza dos dados, retirando possíveis outliers que influenciem nas análises finais.
+
 II - Deve-se preparar os códigos para que sejam manipulados por modelos de ML, modelos esses que podem fazer uma melhor predição do melhor preço de venda e da melhor época do ano para vender esses imóveis. 
-Utilizando essas duas camadas, é possível ter uma acertividade muito maior e segura do negócio.
+
+Utilizando essas duas alterações, é possível ter uma acertividade muito maior e segura do negócio.
 
 # 8.0 - Technologies
 As seguintes tecnologias foram utilizadas ao longo do processo.
+
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
