@@ -70,7 +70,7 @@ Foi criado gráficos e mapas para melhor entendimento dos dados.
 Os mapas criados foram de Densidade de Portfólio e Densidade de Preços.
 Os gráficos criados foram de Preço por ano de construção, preço por dia, distribuição de preços, casas por quartos, casas por banheiros, casas por andares e casas com vista para a água.
 
-[Notebook visualizações]
+[Notebook visualizações](https://github.com/gustweing/house_rocket/blob/main/notebook%20house_rocket.ipynb)
         
 * Passo 04 - Deploy em núvem
 
