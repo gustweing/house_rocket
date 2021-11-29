@@ -69,6 +69,8 @@ Nesse passo, buscando uma melhor otimização utilizamos um processo de Multi-Th
 Foi criado gráficos e mapas para melhor entendimento dos dados.
 Os mapas criados foram de Densidade de Portfólio e Densidade de Preços.
 Os gráficos criados foram de Preço por ano de construção, preço por dia, distribuição de preços, casas por quartos, casas por banheiros, casas por andares e casas com vista para a água.
+
+[Notebook visualizações]
         
 * Passo 04 - Deploy em núvem
 
