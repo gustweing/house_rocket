@@ -78,6 +78,8 @@ Foi realizado um deploy em uma aplicação em núvem, de modo que o CEO consiga 
 O aplicativo conta com a análise descritiva dos dados e análises por 'zipcode', além de contar com os gráficos e mapas a disposição. 
 O deploy ocorreu pelo Heroku e o framework utilizado foi o streamlit. 
 
+[Código para deploy](https://github.com/gustweing/house_rocket/blob/main/house_rocket_app_final.py)
+
 [House Rocket App](https://analytics-house-rocket-gw.herokuapp.com) - O aplicativo pode demorar para carregar devido ao grande número de requisições para rodar o mapa. 
 
 * Passo 05 - Análises buscando Insights
