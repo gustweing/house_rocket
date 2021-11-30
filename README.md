@@ -91,26 +91,30 @@ Com a análise dos dados, foi criado um arquivo de recomendação de negócios p
 As recomendações foram feitas utilizando a mediana por 'zipcode' de cada um dos locais. 
 Um dos fatores importantes para ser considerado ou não uma recomendação de negócio é condição ser igual ou superior a 3 ('regular'). 
 
-[Recomendações de Negócio]
+[Recomendações de Negócio](https://github.com/gustweing/house_rocket/blob/main/datasets/recomendacoes_compras.csv)
 
 * Passo 07 - Recomendação de vendas
 
 Com a análise dos dados, foi criado um arquivo de recomendação das melhores épocas para vender o imóvel e o melhor preço sugerido.
 As recomendações foram feitas utilizando a mediana por 'zipcode' e por estação de cada imóvel.
 
-[Recomendação de venda]
+[Recomendação de venda](https://github.com/gustweing/house_rocket/blob/main/datasets/recomendacoes_venda.csv)
 
 
 # 4.0 - Top 5 Data Insights
 Os insights acionáveis que vieram através da exploração dos dados:
 
-* Imóveis que possuem vista para a água são 30% mais caros na média.
+* Imóveis que possuem vista para a água são 30% mais caros na média.  - 
+VERDADEIRO: As casas que possuem "waterfront" são aproximadamente 213% acima da média comparada com as casas sem "waterfront"
 
-* Imóveis com data de construção menores que 1955 são 50% mais baratos na média.
+* Imóveis com data de construção menores que 1955 são 50% mais baratos na média. - 
+FALSO: As casas com menor ano de construção são apenas 0.78% mais baratas
 
-* Imóveis sem porão possuem área total 40% maiores do que imóveis sem porão.
+* Imóveis sem porão possuem área total 40% maiores do que imóveis sem porão. - 
+FALSO: As casas sem porão possuem em média área de 18.41% maiores
 
-* O crescimento dos imóveis YoY (year over year) é de 10%.
+* O crescimento dos imóveis YoY (year over year) é de 10%. - 
+FALSO: O crescimento dos imóveis YoY é de 0.52%.
 
 # 5.0 - Business Results
 O cálculo do melhor preços de venda dos imóveis deu-se com as seguintes situações:
@@ -123,9 +127,9 @@ Na tabela abaixo, é possível fazer uma comparação dos resultados obtidos e d
 
 | Situação de Venda | N° de casas | Valor total (US$) | Valor de revenda (US$) | Lucro (US$) |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| 1 | x | y | z | w |
-| 2 | x | y | z | w |
-| Grand Total | x | y | z | w |
+| 1 | 10.678 | 7.427.092.990,00 | 8.169.802.289,00 | 742.709.299,00 |
+| 2 | 10.935 | 4.245.832.018,00 | 5.519.581.623,40 | 1.273.749.605,40 |
+| Grand Total | 21.613 | 11.672.925.008,00 | 13.689.383.912,40 | 2.016.458.904,40 |
 
 
 # 6.0 - Conclusions
