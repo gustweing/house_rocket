@@ -105,15 +105,19 @@ As recomendações foram feitas utilizando a mediana por 'zipcode' e por estaç�
 Os insights acionáveis que vieram através da exploração dos dados:
 
 * Imóveis que possuem vista para a água são 30% mais caros na média.  - 
+
 VERDADEIRO: As casas que possuem "waterfront" são aproximadamente 213% acima da média comparada com as casas sem "waterfront"
 
 * Imóveis com data de construção menores que 1955 são 50% mais baratos na média. - 
+
 FALSO: As casas com menor ano de construção são apenas 0.78% mais baratas
 
-* Imóveis sem porão possuem área total 40% maiores do que imóveis sem porão. - 
+* Imóveis sem porão possuem área total 40% maiores do que imóveis sem porão. -
+ 
 FALSO: As casas sem porão possuem em média área de 18.41% maiores
 
-* O crescimento dos imóveis YoY (year over year) é de 10%. - 
+* O crescimento dos imóveis YoY (year over year) é de 10%. -
+ 
 FALSO: O crescimento dos imóveis YoY é de 0.52%.
 
 # 5.0 - Business Results
