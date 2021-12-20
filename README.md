@@ -101,7 +101,7 @@ As recomendações foram feitas utilizando a mediana por 'zipcode' e por estaç�
 [Recomendação de venda](https://github.com/gustweing/house_rocket/blob/main/datasets/recomendacoes_venda.csv)
 
 
-# 4.0 - Top 5 Data Insights
+# 4.0 - Top Data Insights
 Os insights acionáveis que vieram através da exploração dos dados:
 
 * Imóveis que possuem vista para a água são 30% mais caros na média.  - 
