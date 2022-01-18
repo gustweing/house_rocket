@@ -137,8 +137,8 @@ Na tabela abaixo, é possível fazer uma comparação dos resultados obtidos e d
 
 
 # 6.0 - Conclusions
-O objetivo de análisar os valores com base nas regiões foi concluído.
-É possível notar que seguindo o modelo há uma obtenção de lucro de maneira calculada e objetiva. 
+A partir desse projeto conseguimos buscar insights de negócio visando aumentar o lucro pela empresa, bem como observar alguns padrões nos estabelecimentos. 
+A venda dos imóveis a partir da margem sugerida irá gerar um lucro total de US$ 2.016.458.904,40.
 
 # 7.0 - Next steps
 Para as próximas etapas, é crucial que alguns pontos sejam alterados e adicionados.
